@@ -27,7 +27,6 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
-/*CABEÇALHO*/
 
 .cabecalho {
     display: flex;
@@ -72,7 +71,7 @@ body {
 }
 
 .logo:hover .titulo{
-    color: #1ED760;
+    color: #1e9146;
 }
 
 .navegacao .menu {
@@ -80,7 +79,7 @@ body {
 }
 
 .navegacao .menu .item {
-    margin: 10px;    
+    margin: 10px;   
 }
 
 .navegacao .menu .item a {
@@ -91,11 +90,10 @@ body {
 .navegacao .menu .item a:hover {
     background-color: #1ED760;
     color: white;
+    border-radius: 7px;
 }
 
-/* CABEÇALHO */
 
-/* PAINEL */
 
 .conteudo-principal .paineis{
     position: relative;
@@ -112,29 +110,29 @@ body {
 }
 
 .conteudo-principal .paineis .imagem-painel {
-    background-repeat: no-repeat; /*explicar o no-repeat  */
-    background-size: cover; /*explicar o cover  */
+    background-repeat: no-repeat;
+    background-size: cover; 
     background-position: center;
-    min-width: 100%;  /*explicar o vw  */
+    min-width: 100%; 
     height: 100%;
-    position: absolute; /*explicar o absolute  */
+    position: absolute;
     z-index: -1;
-    filter: brightness(70%); /*explicar o filtro   */
+    filter: brightness(70%);
     opacity: 0;
     transition: 0.5s ease-out;
     font-size: 20px;
 }
 
 .conteudo-principal .paineis .imagem-painel.projeto1{
-    background-image: url('../imagens/painel1.jpg'); /*explicar voltar a pasta  */
+    background-image: url('../imagens/painel1.jpg'); 
 }
 
 .conteudo-principal .paineis .imagem-painel.projeto2{
-    background-image: url('../imagens/painel2.jpg'); /*explicar voltar a pasta  */
+    background-image: url('../imagens/painel2.jpg'); 
 }
 
 .conteudo-principal .paineis .imagem-painel.projeto3{
-    background-image: url('../imagens/painel3.jpg'); /*explicar voltar a pasta  */
+    background-image: url('../imagens/painel3.jpg'); 
 }
 
 .conteudo-principal .paineis .imagem-painel.mostrar{
@@ -153,8 +151,9 @@ body {
     width: 50px;
     height: 50px;
     position: absolute; 
-    text-indent: 100%; /* serve pra desaparecer o texto */
-    overflow: hidden; /* serve pra desaparecer o texto */
+    text-indent: 100%; 
+    overflow: hidden;
+    
 }
 
 .conteudo-principal .paineis .seta.desabilitar{
@@ -164,16 +163,14 @@ body {
 
 .conteudo-principal .paineis .btn-voltar{
     left: 20px;
-    transform: rotateY(180deg); /* vira a imagem da seta */
+    transform: rotateY(180deg);
 }
 
 .conteudo-principal .paineis .btn-avancar{
     right: 20px;
 }
 
-/* PAINEL */
 
-/* QUEM SOMOS */
 
 .quem-somos {     
     background-color: #2941AB;    
@@ -226,9 +223,8 @@ body {
     font-weight: 400;    
 }
 
-/* QUEM SOMOS */
 
-/* RODAPÉ */
+
 
 .rodape{    
     padding: 80px 0 20px 0;
@@ -278,7 +274,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 10px;
-    border: 2px solid #111;
+    border: 1px solid #111;
     padding: 15px;
     width: 65px;
     border-radius: 50%;
@@ -287,12 +283,11 @@ body {
 }
 
 .rodape .redes-sociais a:hover{
-    background-color: #1ED760;
+    box-shadow:  0 0 1em #02f82b, 0 0 1em #1ED760;
 }
+
 
 .rodape .copyright{
     margin-top: 70px;
     text-align: center;    
 }
-
-/* RODAPÉ */
